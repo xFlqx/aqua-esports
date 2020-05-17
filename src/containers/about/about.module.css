@@ -1,0 +1,19 @@
+.about {
+  position: relative;
+}
+.aboutQuote {
+  text-align: center;
+  width: 33rem;
+  margin: 0 auto 2rem auto;
+  z-index: 100;
+}
+.aboutQuote h2 {
+  font-size: 3rem;
+}
+.smallSplash {
+  position: absolute;
+  top: -20rem;
+  left: 55%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
