@@ -17,3 +17,41 @@
   transform: translateX(-50%);
   z-index: -1;
 }
+.smallSplash img {
+  opacity: 0.6;
+}
+.aboutVideo {
+  width: 60rem;
+  height: 30rem;
+  margin: 23rem auto 25rem auto;
+}
+.aboutVideo video {
+  width: 100%;
+  outline: none;
+}
+.aboutContainer {
+  width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.aboutTitle {
+  text-align: right;
+}
+.aboutTitle h3 {
+  margin-right: 7rem;
+}
+.bigSplash {
+  width: 110rem;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.bigSplash img {
+  width: 100%;
+  opacity: 0.6;
+  object-fit: cover;
+}
