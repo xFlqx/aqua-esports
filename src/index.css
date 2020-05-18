@@ -13,12 +13,12 @@ body {
   background-color: #080808;
   color: #fff;
 }
-section {
-  margin-top: 6rem;
-}
 h3 {
   font-size: 5rem;
   font-family: "Bebas Neue", cursive;
+}
+section {
+  margin-top: 6rem;
 }
 p {
   font-size: 1.8rem;

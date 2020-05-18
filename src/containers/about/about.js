@@ -15,12 +15,13 @@ const About = props => {
         <img src={Splash} />
       </div>
       <div className={style.aboutVideo}>
-        <video
+        <p>"You play it. We live it"</p>
+        {/* <video
           src={video}
           controls="controls"
           muted
           //autoplay="true"
-        />
+        /> */}
       </div>
       <div className={style.aboutContainer}>
         <div className={style.aboutTitle}>

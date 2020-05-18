@@ -1,0 +1,33 @@
+.Footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.925);
+  padding: 2rem;
+}
+.socialMedia {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.socialMedia img {
+  width: 2rem;
+}
+.socialMedia div {
+  margin-right: 1rem;
+}
+.footerNav ul {
+  list-style: none;
+}
+.footerNav li {
+  font-size: 2rem;
+  margin-top: 0.6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.copyRight {
+  text-align: center;
+  margin-top: 3rem;
+}
+.copyRight p {
+  font-size: 1.3rem;
+}

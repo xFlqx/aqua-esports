@@ -9,9 +9,7 @@ import title from "../../assets/your-esport-team.png";
 const Header = props => {
   return (
     <header>
-      <div className={style.HeaderContainer}>
-        <img src={fornite} />
-      </div>
+      <div className={style.HeaderContainer}>{<img src={fornite} />}</div>
       <div className={style.MainTitle}>
         <img src={title} />
         <h1>Your Esport Squad</h1>

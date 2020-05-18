@@ -1,0 +1,18 @@
+.Owner {
+  display: grid;
+  width: 120rem;
+  max-width: 100%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+.Owner img {
+  display: block;
+  width: 60%;
+  justify-self: flex-end;
+}
+.Owner p {
+  width: 70%;
+}

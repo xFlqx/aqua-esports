@@ -21,14 +21,27 @@
   opacity: 0.6;
 }
 .aboutVideo {
-  width: 60rem;
-  height: 30rem;
+  width: 100%;
+  position: relative;
+  height: 40rem;
   margin: 23rem auto 25rem auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404), #000),
+    url(../../assets/fornite-team.jpeg);
+  background-attachment: fixed;
+  background-position: top center;
 }
-.aboutVideo video {
+.aboutVideo p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-family: "Lobster Two", cursive;
+}
+/* .aboutVideo video {
   width: 100%;
   outline: none;
-}
+} */
 .aboutContainer {
   width: 80rem;
   margin: 0 auto;
@@ -45,7 +58,7 @@
 .bigSplash {
   width: 110rem;
   position: absolute;
-  top: 68%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
