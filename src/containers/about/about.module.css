@@ -23,7 +23,7 @@
 .aboutVideo {
   width: 100%;
   position: relative;
-  height: 40rem;
+  height: 50rem;
   margin: 23rem auto 25rem auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.404), #000),
     url(../../assets/fornite-team.jpeg);
@@ -56,9 +56,10 @@
   margin-right: 7rem;
 }
 .bigSplash {
-  width: 110rem;
+  max-width: 100%;
+  width: 120rem;
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;

@@ -8,10 +8,16 @@
 html {
   font-size: 62.5%;
 }
+@media only screen and (max-width: 64em) {
+  html {
+    font-size: 55.25%;
+  }
+}
 body {
   box-sizing: border-box;
   background-color: #080808;
   color: #fff;
+  overflow-x: hidden;
 }
 h3 {
   font-size: 5rem;

@@ -1,11 +1,8 @@
 import React from "react";
 import style from "./footer.module.css";
-import twich from "../../assets/logo-twitch.svg";
-import youtube from "../../assets/logo-youtube.svg";
 import instagram from "../../assets/logo-instagram.svg";
 import facebook from "../../assets/logo-facebook.svg";
 import twitter from "../../assets/logo-twitter.svg";
-import eventImage from "../../assets/gold-fornite.jpg";
 
 const Footer = props => {
   return (
