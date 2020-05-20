@@ -25,3 +25,21 @@
 .Owner p {
   width: 70%;
 }
+@media only screen and (max-width: 48em) {
+  .OwnerLogo img {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 39.62em) {
+  .Owner {
+    grid-template-columns: 1fr;
+  }
+  .Owner img {
+    justify-self: center;
+    margin-bottom: 2rem;
+    width: 70%;
+  }
+  .OwnerLogo img {
+    width: 95%;
+  }
+}

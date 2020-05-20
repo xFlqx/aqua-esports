@@ -6,6 +6,8 @@ const Events = props => {
     <section className={style.Events}>
       <h3>Upcomming Events</h3>
       <Event />
+      <Event />
+      <Event />
     </section>
   );
 };

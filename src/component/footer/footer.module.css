@@ -31,3 +31,11 @@
 .copyRight p {
   font-size: 1.3rem;
 }
+@media only screen and (max-width: 48em) {
+  .footerNav ul {
+    margin-top: 2rem;
+  }
+  .footerNav li {
+    font-size: 1.5rem;
+  }
+}

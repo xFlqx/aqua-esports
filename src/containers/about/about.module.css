@@ -92,6 +92,9 @@
     top: -11rem;
     left: 0;
   }
+  .aboutQuote {
+    width: 100%;
+  }
   .aboutContainer {
     grid-template-columns: 1fr;
   }

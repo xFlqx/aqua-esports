@@ -47,7 +47,8 @@ h1 {
 }
 @media only screen and (max-width: 48em) {
   .MainTitle {
-    width: 95%;
+    width: 100%;
+    top: 45%;
   }
 }
 /* @media only screen and (max-width: 31.25em) {

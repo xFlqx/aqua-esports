@@ -4,8 +4,8 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./containers/header/header";
 import About from "./containers/about/about";
 import Events from "./containers/events/events";
-//import Owner from "./component/owner/owner";
-//import Footer from "./component/footer/footer";
+import Owner from "./component/owner/owner";
+import Footer from "./component/footer/footer";
 import Navegation from "./component/navegation/navegation";
 
 function App() {
@@ -27,9 +27,10 @@ function App() {
         <About />
 
         <Events />
-        {/*
+
         <Owner />
-        <Footer />  */}
+
+        <Footer />
       </div>
     </BrowserRouter>
   );

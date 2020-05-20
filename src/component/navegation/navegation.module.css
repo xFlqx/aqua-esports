@@ -30,7 +30,7 @@
   transition: all 0.15s;
 }
 .menuContainer a:hover {
-  background-color: blue;
+  background-color: #07bcf5;
 }
 .burgerMenuContainer {
   display: none;

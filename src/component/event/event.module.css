@@ -37,3 +37,17 @@
   width: 20rem;
   max-width: 100%;
 }
+@media only screen and (max-width: 39.62em) {
+  .EventContainer {
+    width: 100%;
+  }
+  .EventImgTxt {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .EventImgTxt p {
+    margin-top: 2rem;
+    text-align: left;
+  }
+}
