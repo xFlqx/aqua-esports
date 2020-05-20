@@ -11,13 +11,16 @@
   font-size: 3rem;
 }
 .smallSplash {
+  max-width: 100%;
+  width: 70rem;
   position: absolute;
-  top: -20rem;
+  top: -18%;
   left: 55%;
   transform: translateX(-50%);
   z-index: -1;
 }
 .smallSplash img {
+  width: 100%;
   opacity: 0.6;
 }
 .aboutVideo {
@@ -68,4 +71,41 @@
   width: 100%;
   opacity: 0.6;
   object-fit: cover;
+}
+@media only screen and (max-width: 50em) {
+  .aboutContainer {
+    width: 100%;
+  }
+  .aboutVideo {
+    margin: 15rem auto 10rem auto;
+  }
+
+  .aboutContainer p {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 39.62em) {
+  .smallSplash {
+    width: 100%;
+    top: -11rem;
+    left: 0;
+  }
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
+  .bigSplash {
+    top: 59%;
+  }
+  .aboutContainer h3 {
+    text-align: center;
+    margin: 0;
+  }
+  .aboutVideo {
+    text-align: center;
+  }
+  .aboutVideo p {
+    width: 100%;
+  }
 }

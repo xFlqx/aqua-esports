@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./about.module.css";
 import Splash from "../../assets/splash.png";
-import video from "../../assets/Aqua-Intro.mp4";
+//import video from "../../assets/Aqua-Intro.mp4";
 import BigSplash from "../../assets/big-splash-2.png";
 const About = props => {
   return (
@@ -12,7 +12,7 @@ const About = props => {
         </h2>
       </div>
       <div className={style.smallSplash}>
-        <img src={Splash} />
+        <img src={Splash} alt="small splash" />
       </div>
       <div className={style.aboutVideo}>
         <p>"You play it. We live it"</p>
@@ -40,7 +40,7 @@ const About = props => {
         </div>
       </div>
       <div className={style.bigSplash}>
-        <img src={BigSplash} />
+        <img src={BigSplash} alt="big splash" />
       </div>
     </section>
   );

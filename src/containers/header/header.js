@@ -10,10 +10,10 @@ const Header = props => {
   return (
     <header>
       <div className={style.HeaderContainer}>
-        <img src={fornite} />
+        <img src={fornite} alt="fornite" />
       </div>
       <div className={style.MainTitle}>
-        <img src={title} />
+        <img src={title} alt="title" />
         <h1>Your Esport Squad</h1>
       </div>
     </header>

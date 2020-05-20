@@ -12,13 +12,13 @@ const Footer = props => {
           <p>Follow us</p>
         </div>
         <div>
-          <img src={instagram} />
+          <img src={instagram} alt="instagram logo" />
         </div>
         <div>
-          <img src={facebook} />
+          <img src={facebook} alt="facebook logo" />
         </div>
         <div>
-          <img src={twitter} />
+          <img src={twitter} alt="twitter logo" />
         </div>
       </div>
       <div className={style.footerNav}>

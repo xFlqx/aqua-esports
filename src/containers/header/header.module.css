@@ -37,7 +37,6 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
 }
 .MainTitle img {
@@ -46,3 +45,13 @@ header {
 h1 {
   display: none;
 }
+@media only screen and (max-width: 48em) {
+  .MainTitle {
+    width: 95%;
+  }
+}
+/* @media only screen and (max-width: 31.25em) {
+  .MainTitle {
+    width: 110%;
+  }
+}  */

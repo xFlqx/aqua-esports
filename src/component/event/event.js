@@ -16,15 +16,15 @@ const Event = props => {
           <p>Live</p>
         </div>
         <div>
-          <img src={twich} />
+          <img src={twich} alt="twitch icon" />
         </div>
         <div>
-          <img src={youtube} />
+          <img src={youtube} alt="youtube icon" />
         </div>
       </div>
       <div className={style.EventImgTxt}>
         <div>
-          <img src={eventImage}></img>
+          <img src={eventImage} alt="current event pic"></img>
         </div>
         <p>
           It is a long established fact that a reader will be distracted by the
@@ -37,13 +37,13 @@ const Event = props => {
           <p>Follow us</p>
         </div>
         <div>
-          <img src={instagram} />
+          <img src={instagram} alt="instagram icon" />
         </div>
         <div>
-          <img src={facebook} />
+          <img src={facebook} alt="facebook icon" />
         </div>
         <div>
-          <img src={twitter} />
+          <img src={twitter} alt="twitter icon" />
         </div>
       </div>
     </div>
