@@ -2,10 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter } from "react-router-dom";
 import Header from "./containers/header/header";
-import About from "./containers/about/about";
-import Events from "./containers/events/events";
-import Owner from "./component/owner/owner";
-import Footer from "./component/footer/footer";
+
 import Navegation from "./component/navegation/navegation";
 
 function App() {
@@ -24,13 +21,6 @@ function App() {
         </Helmet>
         <Navegation />
         <Header />
-        <About />
-
-        <Events />
-
-        <Owner />
-
-        <Footer />
       </div>
     </BrowserRouter>
   );
