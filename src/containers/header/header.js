@@ -30,13 +30,13 @@ const Header = props => {
           <div>
             <Slider {...settings}>
               <div>
-                <img src={fifa} />
+                <img src={fifa} alt="fifa" />
               </div>
               <div>
-                <img src={fornite} />
+                <img src={fornite} alt="fortnite" />
               </div>
               <div>
-                <img src={forniteTeam} />
+                <img src={forniteTeam} alt="fortniteteam" />
               </div>
             </Slider>
           </div>
