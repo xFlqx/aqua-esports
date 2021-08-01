@@ -6,7 +6,7 @@ const Owner = props => {
   return (
     <section className={style.OwnerContainers}>
       <div className={style.Owner}>
-        <img src={ownerImage} />
+        <img src={ownerImage} alt="owner" />
         <p>
           "We want to connect with people around the world to bring them
           together and do what we all love, playing video games. This family is
